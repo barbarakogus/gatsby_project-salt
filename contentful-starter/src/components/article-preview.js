@@ -9,6 +9,7 @@ import * as styles from './article-preview.module.css'
 const ArticlePreview = ({ posts }) => {
   if (!posts) return null
   if (!Array.isArray(posts)) return null
+  console.log(posts)
 
   return (
     <Container>
